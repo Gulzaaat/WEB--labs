@@ -1,0 +1,37 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('img/newbackground.png');
+    background-size: cover;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  .dice-container {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  .dice-container img {
+    margin: 0 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
